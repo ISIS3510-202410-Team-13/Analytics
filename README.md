@@ -1,3 +1,3 @@
 # Analytics
 
-link para el looker studio BQ 2.3: https://lookerstudio.google.com/s/j8pzo3OZxkg
+link for the looker studio to answer the BQ 2.3: https://lookerstudio.google.com/s/j8pzo3OZxkg
