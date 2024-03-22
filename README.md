@@ -1,5 +1,3 @@
 # Analytics
 
-Links to each BQ report:
-
-- **BQ 5.2:** https://lookerstudio.google.com/reporting/b701a8d0-01e0-4e47-a871-f3b5df016e2a 
+- BQ 5.2: https://lookerstudio.google.com/reporting/cfd155a3-f15c-40dc-8a40-ac8b716ae167

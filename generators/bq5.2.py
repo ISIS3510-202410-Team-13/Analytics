@@ -3,6 +3,8 @@ import numpy as np
 from faker import Faker
 import random
 
+np.random.seed(0)
+
 fake = Faker()
 
 # Generate random data for the dataset
@@ -29,6 +31,9 @@ meeting_dates = [fake.date_this_year() for _ in range(num_rows)]
 days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 day_of_week = [random.choice(days_of_week) for _ in range(num_rows)]
 
+# Generate MeetingStartTime: Values between 8:00 and 17:00
+meeting_start_times = [f"{random.randint(8, 16)}:{random.choice(['00', '30'])}" for _ in range(num_rows)]
+
 # Generate MeetingDuration: Up to 4 hours
 meeting_duration = [random.randint(15, 240) for _ in range(num_rows)]
 
@@ -51,6 +56,7 @@ df = pd.DataFrame({
     'UserCareer': user_career,
     'MeetingDate': meeting_dates,
     'DayOfWeek': day_of_week,
+    'MeetingStartTime': meeting_start_times,
     'MeetingDuration': meeting_duration,
     'MeetingBuilding': meeting_building,
     'MeetingPurpose': meeting_purpose,
