@@ -20,6 +20,10 @@ The `excel_mockups` directory houses the data used to create each report. These 
 
 The `generators` directory contains Python scripts responsible for creating the mock data used in the Excel mockups. These scripts generate synthetic data to simulate real-world scenarios and enable the creation of comprehensive reports.
 
+## Cloud Functions
+
+The `cloud_functions` directory contains Node.js scripts used to perform the ETL process. They are deployed using the Cloud Functions service in GCP. They work by querying the relevant raw data from No-SQL Databases stored in Firestore and updating the processed data to BigQuery tables which are then consumed by Looker Studio.
+
 
 ## Access to Live Reports
 
