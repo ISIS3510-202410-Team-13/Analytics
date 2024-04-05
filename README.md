@@ -24,7 +24,6 @@ The `generators` directory contains Python scripts responsible for creating the 
 
 The `cloud_functions` directory contains Node.js scripts used to perform the ETL process. They are deployed using the Cloud Functions service in GCP. They work by querying the relevant raw data from No-SQL Databases stored in Firestore and updating the processed data to BigQuery tables which are then consumed by Looker Studio.
 
-
 ## Access to Live Reports
 
 The following links provide acces to the reports developed in `looker-studio` (service provided by Google):
