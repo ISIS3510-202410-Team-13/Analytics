@@ -47,4 +47,3 @@ In this [link](https://lookerstudio.google.com/reporting/8211ae21-6964-49d6-a30e
 #### User Engagement (Ads)
 
 <img width="1728" alt="image" src="https://github.com/ISIS3510-202410-Team-13/Analytics/assets/68788933/5ec11c70-c405-4fa5-8d14-35550aa97d69">
-
